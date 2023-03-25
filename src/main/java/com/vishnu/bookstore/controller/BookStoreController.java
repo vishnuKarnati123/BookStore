@@ -17,13 +17,6 @@ public class BookStoreController {
 	@Autowired
 	private BookStoreRepository bookStoreRepository;
 	
-	@GetMapping("/book")
-	public String fetchBook()
-	{
-		return "book";
-		
-	}
-	
 	@GetMapping("/books")
 	public List<Book> fetchBooks()
 	{

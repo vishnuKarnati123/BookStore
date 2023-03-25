@@ -2,6 +2,9 @@ package com.vishnu.bookstore.model;
 
 import java.util.List;
 
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document(collection ="book")
 public class Book {
 
 	
